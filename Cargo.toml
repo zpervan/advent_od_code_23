@@ -3,5 +3,7 @@ name = "advent_of_code"
 version = "0.1.0"
 edition = "2021"
 authors = ["Zvonimir Pervan <z.pervan65@gmail.com>"]
+
 [dependencies]
 log = "0.4.20"
+regex = "1.10.2"

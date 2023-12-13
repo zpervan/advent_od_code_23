@@ -7,3 +7,4 @@ authors = ["Zvonimir Pervan <z.pervan65@gmail.com>"]
 [dependencies]
 log = "0.4.20"
 regex = "1.10.2"
+multimap = "0.9.1"

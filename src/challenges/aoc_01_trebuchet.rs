@@ -13,10 +13,7 @@ pub fn part_01() {
         let digits = input
             .chars()
             .filter(|e| e.is_numeric())
-            .map(|e| match e.to_digit(10) {
-                None => 0,
-                Some(value) => value,
-            })
+            .map(|e| e.to_digit(10).unwrap_or_else(|| 0))
             .collect::<Vec<u32>>();
 
         println!("Values at {:?}: {:?}", i, digits);
